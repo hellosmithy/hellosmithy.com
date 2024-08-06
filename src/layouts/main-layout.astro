@@ -20,6 +20,22 @@ const { title, description, mainClass } = Astro.props;
   <Header className="border-b">
     <div class="flex items-center gap-x-4" slot="right-header">
       <a
+        href={siteConfig.links.linkedin}
+        target="_blank"
+        rel="noreferrer"
+        aria-label="linkedin"
+      >
+        <Icon name="linkedin" class="size-[22px]" />
+      </a>
+      <a
+        href={siteConfig.links.twitter}
+        target="_blank"
+        rel="noreferrer"
+        aria-label="twitter x"
+      >
+        <Icon name="twitter-x" class="size-[22px]" />
+      </a>
+      <a
         href={siteConfig.links.github}
         target="_blank"
         rel="noreferrer"

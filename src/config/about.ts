@@ -7,50 +7,50 @@ export const hobbies: HobbiesProps[] = [
   // first column
   {
     image:
-      "https://images.pexels.com/photos/15372903/pexels-photo-15372903/free-photo-of-computer-setup-with-big-monitor-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/images/maru-walk.jpg",
     alt: "setup desktop",
   },
   {
     image:
-      "https://images.pexels.com/photos/1049317/pexels-photo-1049317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/images/field.jpg",
     alt: "friends smiles",
   },
   // second column
   {
     image:
-      "https://images.pexels.com/photos/3712095/pexels-photo-3712095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/images/cycling.jpg",
     alt: "grey cat",
   },
   {
     image:
-      "https://images.pexels.com/photos/9293249/pexels-photo-9293249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/images/hiking.jpg",
     alt: "home building",
   },
   {
     image:
-      "https://images.pexels.com/photos/375467/pexels-photo-375467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "pizza laptop",
+      "/images/light-installation.jpg",
+    alt: "mossy sculpture",
   },
   // third column
   {
     image:
-      "https://images.pexels.com/photos/1230302/pexels-photo-1230302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "hike and sunset",
+      "/images/hill.jpg",
+    alt: "bicycle",
   },
   {
     image:
-      "https://images.pexels.com/photos/5500779/pexels-photo-5500779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/images/lights-on-lake.jpg",
     alt: "chinese lantern",
   },
   // fourth column
   {
     image:
-      "https://images.pexels.com/photos/2090644/pexels-photo-2090644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/images/gliding.jpg",
     alt: "the great wheel",
   },
   {
     image:
-      "https://images.pexels.com/photos/7418632/pexels-photo-7418632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/images/kids-cherry-blossom.jpg",
     alt: "dalmatian",
   },
 ];

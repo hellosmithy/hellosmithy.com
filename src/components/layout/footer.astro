@@ -19,37 +19,16 @@ const { className } = Astro.props;
         Copyright &copy; 2024. All rights reserved.
       </span> -->
       <p class="text-left text-sm text-muted-foreground">
-        Built by{" "}
+        Built with{" "}
         <a
-          href={siteConfig.links.twitter}
+          href="https://astro.build/themes/details/astro-nomy/"
           target="_blank"
           rel="noreferrer"
           class="font-medium underline underline-offset-4"
         >
-          mickasmt
+          astro-nomy
         </a>
-        . Hosted on{" "}
-        <a
-          href="https://vercel.com"
-          target="_blank"
-          rel="noreferrer"
-          class="font-medium underline underline-offset-4"
-        >
-          Vercel
-        </a>.
       </p>
-
-      <div class="flex items-center gap-3">
-        <a
-          href={siteConfig.links.github}
-          target="_blank"
-          rel="noreferrer"
-          class="font-medium underline underline-offset-4"
-        >
-          <Icon name="github" class="size-5" />
-        </a>
-        <ThemeToggle client:load />
-      </div>
     </div>
   </div>
 </footer>
