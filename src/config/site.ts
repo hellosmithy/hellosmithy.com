@@ -11,4 +11,7 @@ export const siteConfig: SiteConfig = {
     github: "https://github.com/hellosmithy",
     linkedin: "https://linkedin.com/in/hellosmithy",
   },
+  analytics: {
+    umamiWebsiteId: "54935721-f5b1-40eb-ab87-51b39ab5f890",
+  },
 };

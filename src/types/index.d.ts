@@ -8,4 +8,7 @@ export type SiteConfig = {
     github: string;
     linkedin: string;
   };
+  analytics: {
+    umamiWebsiteId: string;
+  }
 };
